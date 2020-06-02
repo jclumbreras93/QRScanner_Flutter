@@ -1,2 +1,8 @@
 # This is a generated file; do not edit or check into version control.
 barcode_scan=/Users/juancarlos/development/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-3.0.1/
+path_provider=/Users/juancarlos/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.9/
+path_provider_macos=/Users/juancarlos/development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+3/
+sqflite=/Users/juancarlos/development/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-1.3.0+2/
+url_launcher=/Users/juancarlos/development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.4.10/
+url_launcher_macos=/Users/juancarlos/development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+7/
+url_launcher_web=/Users/juancarlos/development/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.1+6/
