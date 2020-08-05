@@ -1,5 +1,0 @@
-version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
-options: "87f0fbd60fe0762bb1863a1d70fe930d"
-build_time: [1591199718, 256710000]
-inputs:
-  "/Users/juancarlos/Flutter/QRScanner_Flutter/ios/Runner/AppDelegate.swift": [1588774831, 0]
