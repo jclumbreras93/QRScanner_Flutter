@@ -49,23 +49,20 @@ class _HomePageState extends State<HomePage> {
     // https://www.google.es/
     // geo:41.38005795448842,2.1579716984524833
  
-    dynamic futureString = 'https://www.google.es/';
-
-    //try {
-    //  futureString = await BarcodeScanner.scan();
-    //} catch (e) {
-    //  futureString = e.toString();
-    //}
+    dynamic futureString ='';
+ 
+    try {
+      futureString = await BarcodeScanner.scan();
+    }catch(e){
+      futureString=e.toString();
+    }
+ 
     //print('Future String: ${futureString.rawContent}');
-//
-    if (futureString != null) {
 
-      final scan = ScanModel(valor: futureString);
+    if (futureString.rawContent != null) {
+
+      final scan = ScanModel(valor: futureString.rawContent);
       scansBloc.agregarScan(scan);  
-
-      final scan2 = ScanModel(valor: 'geo:41.38005795448842,2.1579716984524833');
-      scansBloc.agregarScan(scan2);
-
 
       if(Platform.isIOS) {
 
@@ -75,6 +72,8 @@ class _HomePageState extends State<HomePage> {
       } else {
         utils.abrirScan(context, scan);
       }
+    } else {
+      print('j');
     }
 
   }
@@ -103,7 +102,7 @@ class _HomePageState extends State<HomePage> {
           title: Text('Mapas'),
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.brightness_5),
+          icon: Icon(Icons.cloud_queue),
           title: Text('Direcciones'),
         ),
       ]

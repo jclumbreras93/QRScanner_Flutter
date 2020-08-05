@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/ios/Runner/GeneratedPluginRegistrant.m \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/ios/Runner/GeneratedPluginRegistrant.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/ios/Flutter/Flutter.framework/Modules/module.modulemap \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/ios/Flutter/Flutter.framework/Headers/FlutterTexture.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/ios/Flutter/Flutter.framework/Headers/FlutterPlugin.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/ios/Flutter/Flutter.framework/Headers/FlutterEngine.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/ios/Flutter/Flutter.framework/Headers/FlutterDartProject.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/ios/Flutter/Flutter.framework/Headers/FlutterBinaryMessenger.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/ios/Flutter/Flutter.framework/Headers/FlutterViewController.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/ios/Flutter/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/ios/Flutter/Flutter.framework/Headers/FlutterPlatformViews.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/ios/Flutter/Flutter.framework/Headers/FlutterHeadlessDartRunner.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/ios/Flutter/Flutter.framework/Headers/FlutterChannels.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/ios/Flutter/Flutter.framework/Headers/FlutterCallbackCache.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/ios/Flutter/Flutter.framework/Headers/FlutterCodecs.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/ios/Flutter/Flutter.framework/Headers/FlutterMacros.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/ios/Flutter/Flutter.framework/Headers/FlutterAppDelegate.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/ios/Flutter/Flutter.framework/Headers/Flutter.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/build/ios/Debug-iphoneos/barcode_scan/barcode_scan.framework/Headers/BarcodeScanPlugin.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/build/ios/Debug-iphoneos/barcode_scan/barcode_scan.framework/Modules/module.modulemap \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/build/ios/Debug-iphoneos/barcode_scan/barcode_scan.framework/Headers/barcode_scan-Swift.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/build/ios/Debug-iphoneos/barcode_scan/barcode_scan.framework/Headers/barcode_scan-umbrella.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/build/ios/Debug-iphoneos/path_provider/path_provider.framework/Headers/FLTPathProviderPlugin.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/build/ios/Debug-iphoneos/path_provider/path_provider.framework/Modules/module.modulemap \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/build/ios/Debug-iphoneos/path_provider/path_provider.framework/Headers/path_provider-umbrella.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/build/ios/Debug-iphoneos/sqflite/sqflite.framework/Headers/SqflitePlugin.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/build/ios/Debug-iphoneos/sqflite/sqflite.framework/Modules/module.modulemap \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/build/ios/Debug-iphoneos/sqflite/sqflite.framework/Headers/SqfliteOperation.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/build/ios/Debug-iphoneos/sqflite/sqflite.framework/Headers/sqflite-umbrella.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/build/ios/Debug-iphoneos/url_launcher/url_launcher.framework/Headers/FLTURLLauncherPlugin.h \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/build/ios/Debug-iphoneos/url_launcher/url_launcher.framework/Modules/module.modulemap \
+  /Users/juancarlos/Flutter/QRScanner_Flutter/build/ios/Debug-iphoneos/url_launcher/url_launcher.framework/Headers/url_launcher-umbrella.h

@@ -56,7 +56,7 @@ class _MapaPageState extends State<MapaPage> {
       urlTemplate: 'https://api.mapbox.com/styles/v1/mapbox/'
             '{id}/tiles/{z}/{x}/{y}/?access_token={accessToken}',
       additionalOptions: {
-        'accessToken':'<TOKEN>',
+        'accessToken':'pk.eyJ1Ijoia2RldjkzIiwiYSI6ImNrYXlmdjF2bTBmcTgyd28yd3MyZGQ5emUifQ.ouwrFMfuX7BDJpJET1KFlg',
         'id': tipoMapa,
         /*streets-v11
         outdoors-v11
@@ -93,15 +93,11 @@ class _MapaPageState extends State<MapaPage> {
       child: Icon(Icons.repeat),
       backgroundColor: Theme.of(context).primaryColor,
       onPressed: () {
-        print('Hola');
         if (tipoMapa == 'streets-v11') {
-          print(tipoMapa);
           tipoMapa = 'dark-v10';
         } else if(tipoMapa == 'dark-v10') {
-          print(tipoMapa);
           tipoMapa = 'satellite-streets-v11';
         } else {
-          print(tipoMapa);
           tipoMapa = 'streets-v11';
         }
         setState(() {});
@@ -116,15 +112,3 @@ class _MapaPageState extends State<MapaPage> {
     );
   }
 }
-
-/*
-return TileLayerOptions(
-        urlTemplate: 'https://api.tiles.mapbox.com/v4/'
-            '{id}/{z}/{x}/{y}@2x.png?access_token={accessToken}',
-        additionalOptions: {
-        'accessToken':'pk.eyJ1Ijoiam9yZ2VncmVnb3J5IiwiYSI6ImNrODk5aXE5cjA0c2wzZ3BjcTA0NGs3YjcifQ.H9LcQyP_-G9sxhaT5YbVow',
-        'id': 'mapbox.streets'
-        }
-);
-
-*/
